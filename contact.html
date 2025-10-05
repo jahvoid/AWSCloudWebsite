@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact  |  Jayna Johnson</title>
+    <link rel="stylesheet" href="styles.css">
+    <script scr="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Contact Me</h1>
+    </header>
+
+    <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About me</a>
+            <a href="projects.html">Projects</a>
+            <a href="contact.html" class="active">Contact me</a>
+    </nav>
+
+    <main>
+        <p>Feel free to reach out to me for any questions.</p>
+        <form onsubmit="submitForm(event)">
+            <label for="name">Name:</label>
+            <input type="text" id="name" placeholder="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" placeholder="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" placeholder="message" rows="4" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </main>
+    <footer>
+        <p>&copy; 2025 Jayna Johnson</p>
+    </footer>
+
+</body>
+
+</html>
